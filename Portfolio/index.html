@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Ji - Full Stack Developer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navigation -->
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo">&lt;Dev/&gt;</div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contect" class="nav-link">Contect</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="hero-content">
+        <h1 class="hero-tittle">
+          Hi, I'm <span class="gradient-text">Ram Ji</span>
+        </h1>
+        <div class="typing-container">
+          <span class="static-text">I’ m a&nbsp; </span>
+          <span class="typing-text"></span>
+        </div>
+
+        <p class="hero-description">
+          Crafting beautiful, scalable web application with mordern
+          technologies. Passionate about clean code and exceptional user
+          Experience
+        </p>
+        <div class="hero-button">
+          <a href="#projects" class="btn btn-primary">
+            View Work
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#" class="btn btn-outline">
+            <i class="fa-solid fa-download"></i>
+            download-Resume
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid animate-on-scroll">
+          <div class="about-content" data-aos="slide-right" data-aos-duration="4000">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+              I'm a passionate full-stack developer with 5+ years of experience
+              building web applications that solve real-world problems. I
+              specialize in React, Node.js, and cloud technologies.
+            </p>
+            <p class="about-text-secondary">
+              When I'm not coding, you'll find me contributing to open-source
+              projects, writing technical blog posts, or exploring the latest
+              web technologies. I believe in continuous learning and staying
+              ahead of the curve in this ever-evolving field.
+            </p>
+            <div class="tech-badges">
+              <span class="badge badge-react">React</span>
+              <span class="badge badge-node">Node.Js</span>
+              <span class="badge badge-ex">Express Js</span>
+              <span class="badge badge-mongodb">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="about-img" data-aos="slide-left" data-aos-duration="7000">
+            <div class="img-glow">
+              <img src="/images/photo-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section -->
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-down-right" data-aos-duration="9000">Feature Projects</h2>
+          <p class="section-subtitle">Here are some of my recent works</p>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <!-- dynamically store data -->
+        </div>
+      </div>
+    </section>
+
+    <!-- skills project -->
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="fade-up-right" data-aos-duration="9000">Skills & technologies</h2>
+          <p class="section-subtitle">My technical toolkit</p>
+        </div>
+        <div class="skills-grid" id="skills-grid" data-aos="zoom-in-down" data-aos-duration="4000">
+          <!--skills are dynamically store data -->
+        </div>
+      </div>
+    </section>
+    <section class="xperience" id="experience">
+      <div class="container-small">
+        <div class="section-header" data-aos="fade-down"
+      data-aos-duration="2000">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">My Professional journey</p>
+        </div>
+        <div class="timeline" id="timeline">
+          <!--experience are dynamically store data -->
+        </div>
+      </div>
+    </section>
+    <!--  contect form -->
+
+    <section id="contect" class="contect">
+      <div class="container-small">
+        <div class="section-header">
+          <h2 class="section-title" data-aos="zoom-in-down" data-aos-duration="6000">
+            Get In Touch
+          </h2>
+          <p class="section-subtitle">Let's work together on your next project</p>
+        </div>
+        <div class="contect-form-container">
+          <form class="contect-form" id="contectForm">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" class="input-form" data-aos="slide-right" data-aos-duration="4000" required>
+              <input type="email" placeholder="Your Email" class="input-form" data-aos="slide-left" data-aos-duration="5000" required>
+            </div>
+            <input type="text" placeholder="Subject" class="input-form subject" data-aos="zoom-in-down" data-aos-duration="6000" required>
+            <textarea placeholder="Your Message" rows="7" class="textarea-form" data-aos="bottom-bottom" data-aos-duration="4000" required></textarea>
+            <button type="submit" class="btn btn-primary btn-full" data-aos="zoom-out-down" data-aos-duration="5000">Send Message
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Ram Ji. All rights reserved.</p>
+          <div class="social-icon">
+            <a href="#" class="footer-link"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="footer-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="footer-link"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</html>
